@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image:url("https://media1.tenor.com/m/39ygPCI-GSgAAAAC/tuh-cat.gif");
+background-repeat:no-repeat;
+width:100%;
+height:100%;}
+h1,h2,h3,p {text-align:center;
+         color:white;}
+         div{text-align:center;
+        }
+        #ch, #ch2 {
+            display:none;
+        }
+
+        label {
+            cursor:pointer;
+            color:blue;
+        }
+        .content, .content2{
+            display:none;
+        }
+        #ch:checked ~ .content, #ch2:checked ~ .content2{
+            display: block;
+        }
+        #ch:checked ~ label, #ch2:checked ~ label{
+            display:none;
+        }
