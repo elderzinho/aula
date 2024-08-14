@@ -12,7 +12,7 @@ h1,h2,h3,p {text-align:center;
          color:white;}
          div{text-align:center;
         }
-        #ch, #ch2, #ch3 {
+      input {
             display:none;
         }
 
@@ -20,12 +20,12 @@ h1,h2,h3,p {text-align:center;
             cursor:pointer;
             color:blue;
         }
-        .content, .content2, .content3{
+        .content{
             display:none;
         }
-        #ch:checked ~ .content, #ch2:checked ~ .content2, #ch3:checked ~ .content3{
+        .ch:checked ~ .content{
             display: block;
         }
-        #ch:checked ~ label, #ch2:checked ~ label, #ch3:checked ~ label {
+        .ch:checked ~ label {
             display:none;
         }
