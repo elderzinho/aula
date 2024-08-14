@@ -7,13 +7,12 @@
 body{
     background-image:url("https://media1.tenor.com/m/39ygPCI-GSgAAAAC/tuh-cat.gif");
 background-repeat:no-repeat;
-width:100%;
-height:100%;}
+background-size:100% 100%;}
 h1,h2,h3,p {text-align:center;
          color:white;}
          div{text-align:center;
         }
-        #ch, #ch2 {
+        #ch, #ch2, #ch3 {
             display:none;
         }
 
@@ -21,12 +20,12 @@ h1,h2,h3,p {text-align:center;
             cursor:pointer;
             color:blue;
         }
-        .content, .content2{
+        .content, .content2, .content3{
             display:none;
         }
-        #ch:checked ~ .content, #ch2:checked ~ .content2{
+        #ch:checked ~ .content, #ch2:checked ~ .content2, #ch3:checked ~ .content3{
             display: block;
         }
-        #ch:checked ~ label, #ch2:checked ~ label{
+        #ch:checked ~ label, #ch2:checked ~ label, #ch3:checked ~ label {
             display:none;
         }
