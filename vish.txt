@@ -1,0 +1,54 @@
+Afterglow
+Shelter, forgottense - land
+Magister lab = kingston albynsi cygnus omnous hound hungry hound burning hound nightmare hound tamed beast recipient unknow
+
+37600 sepulcher
+
+Afterglow:
+79 Devourer
+
+
+Nano:
+56 Executioner
+123 molten
+
+polymer: sterile land
+
+
+
+BUNNY:
+106 hagios old mystery 16700
+87 chapel swamp
+117 white gulch biolab
+009 forgottense
+113 forward base hagios
+
+76170
+77380
+
+clairvoyance:
+polymer 57, 95, 51
+fiber: 30 39 106 121
+tube: 60 92 110 41
+
+mods C:
+passionate sponsor
+conditional recharge
+overwhelming hp
+overwhelming shield
+accelerad driveshaft
+improve driveshftas
+
+
+u valby
+code:125
+cells:115
+stabalizer: 113 monolith, 55 grand square
+catalyst:73 lost supply vesper
+
+Luna
+code: 94
+stabilzier: 68
+catalyst: 49 defense line
+cells: shelther 17
+
