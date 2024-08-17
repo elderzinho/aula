@@ -4,6 +4,35 @@
     box-sizing:border-box;
 }
 
+header a:hover{
+    color:blue;
+}
+header a{
+    text-decoration: none;
+    color:red;
+}
+.card a:visited{
+    color:purple;
+}
+
+.card a:hover{
+    color:blue;
+
+}
+.card a{
+    text-decoration: none;
+    color:aliceblue;
+}
+
+ nav{
+    display: flex;
+    gap: 10px;
+ }
+
+ .card label{
+   
+ }
+
 body{
     background-image:url("https://media1.tenor.com/m/39ygPCI-GSgAAAAC/tuh-cat.gif");
 background-repeat:no-repeat;
@@ -16,6 +45,10 @@ h1,h2,h3,p {text-align:center;
             display:none;
         }
 
+
+        label:visited{
+          color:purple;
+        }
         label {
             cursor:pointer;
             color:blue;
