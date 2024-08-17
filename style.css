@@ -9,7 +9,7 @@ header a:hover{
 }
 header a{
     text-decoration: none;
-    color:red;
+    color:white;
 }
 .card a:visited{
     color:purple;
@@ -17,6 +17,7 @@ header a{
 
 .card a:hover{
     color:blue;
+    
 
 }
 .card a{
@@ -26,7 +27,7 @@ header a{
 
  nav{
     display: flex;
-    gap: 10px;
+    gap: 15px;
  }
 
  .card label{
