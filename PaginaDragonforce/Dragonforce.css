@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("img/fundo3.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    background-color: rgba(245, 226, 220, 0.24);
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+#bnd {
+    margin: 150px 0px 0px 545px;
+    position: absolute;
+    border-style: double;
+    border-color: rgba(56, 30, 30, 0.521);
+    border-width: 25px 25px;
+    height: 70%;
+    width: auto;
+
+}
+
+#logo {
+    position: absolute;
+    height: 120px;
+    margin: 20px 0px 0px 800px;
+
+}
+
+#ttfaf {
+    width: 320px;
+    position: absolute;
+    margin: 40px 0px 0px 0px;
+}
+
+#sw {
+    width: 320px;
+    position: absolute;
+    margin: 430px 0px 0px 0px;
+}
+
+#hto {
+    width: 320px;
+    position: absolute;
+    margin: 430px 0px 0px 1600px;
+}
+
+#bwn {
+    width: 320px;
+    position: absolute;
+    margin: 40px 0px 0px 1600px;
+}
