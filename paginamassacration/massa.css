@@ -1,0 +1,52 @@
+*{
+    margin:0px;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    display: grid;
+    height:100vh;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+    background-color: rgba(3, 3, 3, 0.199);
+    padding:0.3rem;
+}
+
+h1{
+    text-align:center;
+}
+.container{
+    display:grid;
+    grid-template-columns:200px 1fr;
+    grid-template-rows:2.9% 1fr 10%;
+}
+header{
+    grid-column:1/4;
+}
+aside{
+grid-column:1/1;
+font-size:1.1rem;
+
+}
+
+.content{
+    display:grid;
+    grid-template-columns:20rem;
+    background-color:rgba(0, 0, 0, 0.884)
+}
+.info{
+    font-size:1.5rem;
+}
+main{
+    background-color:purple;
+
+}
+
+footer{
+    background-color:black;
+    grid-column:1/4;
+}

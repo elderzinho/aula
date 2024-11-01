@@ -17,6 +17,7 @@ nav {
     display: flex;
     gap: 15px;
     background-color: rgba(245, 226, 220, 0.24);
+    padding:0.3rem;
 }
 
 header a:hover {
@@ -29,43 +30,85 @@ header a {
 }
 
 #bnd {
-    margin: 150px 0px 0px 545px;
-    position: absolute;
-    border-style: double;
-    border-color: rgba(56, 30, 30, 0.521);
-    border-width: 25px 25px;
-    height: 70%;
-    width: auto;
+    max-width:40%;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
 
 }
 
-#logo {
-    position: absolute;
-    height: 120px;
-    margin: 20px 0px 0px 800px;
-
+#log{
+  max-width:40%;
+  height:auto;
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-#ttfaf {
-    width: 320px;
-    position: absolute;
-    margin: 40px 0px 0px 0px;
+.if{
+    display:grid;
+    width:100%;
+    margin-top:2em;
+    gap:0.5rem;
+    grid-template-columns:repeat(auto-fit,minmax(100px,1fr));
 }
 
-#sw {
-    width: 320px;
-    position: absolute;
-    margin: 430px 0px 0px 0px;
+.tit{
+    font-size:3rem;
 }
 
-#hto {
-    width: 320px;
-    position: absolute;
-    margin: 430px 0px 0px 1600px;
+.type{
+    font-size:1.2rem;
+    font-weight:bold;
 }
 
-#bwn {
-    width: 320px;
-    position: absolute;
-    margin: 40px 0px 0px 1600px;
+footer{
+    position:absolute;
+    margin-bottom:0;
+    padding:0.8rem;
+    margin-left:0;
+    background-color:rgba(0, 0, 0, 0.664);
+    width:100%;
+    color:white;
+}
+
+.text{
+    display:grid;
+    width:100%;
+    gap:0.3rem;
+    grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+}
+.barratop{
+   height:20px;
+   
+   
+}
+
+@media (max-width:900px){
+    .if{
+        display:grid;
+        width:100%;
+        gap:0.4rem;
+        grid-template-columns:repeat(auto-fit, minmax(140px,1fr));
+
+    }
+    #bnd{
+        max-width:100%;
+        height:auto;
+    }
+    #log{
+        max-width:80%;
+        height:auto;
+    }
+
+    .text{
+        display:grid;
+        width:100%;
+        gap:2rem;
+        grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+    }
+    .type{
+        font-size:1.6rem;
+        font-weight:bold;
+    }
 }

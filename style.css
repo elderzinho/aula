@@ -4,40 +4,37 @@
     box-sizing:border-box;
 }
 
-header a:hover{
-    text-decoration:underline;
-}
-header a{
-    text-decoration: none;
-    color:white;
-}
-.card a:visited{
-    color:purple;
-}
-
-.card a:hover{
-    text-decoration:underline;
-    
-
-}
-.card a{
-    text-decoration: none;
-    color:aliceblue;
-}
 
  nav{
     display: flex;
     gap: 15px;
     background-color:rgba(245, 226, 220, 0.24);
+    
  }
 
+ .nav{
+    color:black;
+    padding:0.3rem;
+ }
+
+ #racionais{
+    width:20%;
+    max-width:40%;
+    height:auto;
+ }
+
+#dragonforce{
+    width:24%;
+    height:auto;
+}
+
+#massacration{
+    width:30%;
+    height:auto;
+}
 
 
 
-body{
-    background-image:url("https://media1.tenor.com/m/39ygPCI-GSgAAAAC/tuh-cat.gif");
-background-repeat:no-repeat;
-background-size:100% 100%;}
 h1,h2,h3,p {text-align:center;
          color:white;}
          div{text-align:center;
@@ -46,20 +43,13 @@ h1,h2,h3,p {text-align:center;
             display:none;
         }
 
+        .footer{
+            position:absolute;
+            margin-bottom:0;
+            padding:0.8rem;
+            margin-left:0;
+            background-color:rgba(0, 0, 0, 0.664);
+            width:100%;
+        }
 
-        label:visited{
-          color:purple;
-        }
-        label {
-            cursor:pointer;
-            color:blue;
-        }
-        .content{
-            display:none;
-        }
-        .ch:checked ~ .content{
-            display: block;
-        }
-        .ch:checked ~ label {
-            display:none;
-        }
+    

@@ -3,17 +3,15 @@
     padding:0;
     box-sizing:border-box;
 }
-body{
-    background-color:white;
-}
-
 
 
  nav{
     display: flex;
     gap: 15px;
     background-color:rgba(245, 226, 220, 0.24);
-    padding:0.3rem;
     
  }
 
+ .nav{
+    color:black;
+ }
